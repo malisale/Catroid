@@ -305,6 +305,13 @@
         <item name="android:background">@drawable/brick_red_2h</item>
     </style>
 
+    <style name="BrickContainer.UserDefined"></style>
+
+    <style name="BrickContainer.UserDefined.Small">
+        <item name="android:minHeight">@dimen/brick_height_small</item>
+        <item name="android:background">@drawable/brick_green_1h</item>
+    </style>
+
     <style name="BrickContainer.Drone" tools:ignore="UnusedResources"></style>
 
     <style name="BrickContainer.Drone.Small" tools:ignore="UnusedResources">
